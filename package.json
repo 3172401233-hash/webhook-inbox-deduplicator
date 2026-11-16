@@ -1,0 +1,14 @@
+{
+  "name": "webhook-inbox-deduplicator",
+  "version": "0.1.0",
+  "description": "Webhook 收件箱去重组件：临时收件箱 + 幂等键 + 重试窗口 + checkpoint 恢复",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
